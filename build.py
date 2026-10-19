@@ -351,6 +351,14 @@ def main():
     if leftover:
         sys.exit(f"Template has fields with no content: {leftover}")
 
+    # Links that leave the site (other websites, and files such as the CV PDF)
+    # open in a new tab; links within the page (#research and so on) do not.
+    page = re.sub(
+        r'<a (class="[^"]*" )?href="((?:https?://|files/)[^"]*)"',
+        lambda m: f'<a {m.group(1) or ""}href="{m.group(2)}" target="_blank" rel="noopener"',
+        page,
+    )
+
     SITE.mkdir(exist_ok=True)
     (SITE / "index.html").write_text(page, encoding="utf-8")
     print(f"Wrote {SITE / 'index.html'}")
