@@ -121,10 +121,12 @@ def build_pi(pi):
             MISSING.append(pi["cv"])
     return (
         '<div class="pi">\n'
-        f'  <figure class="portrait">{image(pi["photo"], pi["name"], "portrait")}</figure>\n'
-        '  <div class="pi-text">\n'
+        '  <div class="pi-head">\n'
         f'    <h3>{esc(pi["name"])}</h3>\n'
         f'    <p class="role">{esc(pi["role"])}</p>\n'
+        "  </div>\n"
+        f'  <figure class="portrait">{image(pi["photo"], pi["name"], "portrait")}</figure>\n'
+        '  <div class="pi-text">\n'
         f'    {paragraphs(pi["blurb"])}\n'
         f"    {cv}\n"
         "  </div>\n"
