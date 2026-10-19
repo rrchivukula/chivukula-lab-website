@@ -1,0 +1,51 @@
+# Rebuilds docs/index.html whenever the content, template, or build script
+# changes, and commits the result. This means edits made in GitHub's web
+# editor go live without anyone running build.py by hand.
+
+name: Build site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "template.html"
+      - "build.py"
+      - "docs/images/**"
+      - "docs/files/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-site
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Skip when the push came from this workflow's own commit.
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pyyaml
+
+      - run: python3 build.py
+
+      - name: Commit the rebuilt page
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "Rebuild site"
+            git push
+          fi

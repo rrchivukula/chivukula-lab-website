@@ -18,12 +18,26 @@ served by GitHub Pages from the `docs/` folder.
 
 ## Updating the site
 
+The easy way: edit a file in `data/` directly on github.com (open the file,
+click the pencil, make the change, "Commit changes"). A GitHub Action then
+rebuilds the page and commits `docs/index.html` on its own; the live site
+updates a minute or two later. You will see a second commit named "Rebuild
+site" appear from github-actions; that is expected.
+
+The same works for images: upload a new headshot to `docs/images/people/`
+on github.com (Add file, Upload files) with the same name as the old one.
+Crop it first to a 4:5 portrait, or ask Claude to crop it with `headshot.py`.
+
+The manual way, if you have the repository on your own computer:
+
 1. Edit the relevant file in `data/`, or drop a new image into `docs/images/`.
 2. Run `python3 build.py` (needs Python 3 and the `pyyaml` package).
-3. Commit and push. GitHub Pages publishes the change within a minute or two.
+3. Commit and push.
 
 The build prints a list of any images or files that are referenced but missing;
-those get a grey placeholder so the page still builds.
+those get a grey placeholder so the page still builds. If a YAML file has a
+syntax error, the Action fails and the site stays as it was; the error shows
+under the repository's Actions tab.
 
 ### Common edits
 
