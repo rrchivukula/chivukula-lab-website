@@ -38,3 +38,4 @@ those get a grey placeholder so the page still builds.
 - Headshots are converted to black and white by one line in `docs/style.css` (search for `grayscale`); delete it to show them in color.
 - Colors and fonts are the tokens at the top of `docs/style.css`.
 - The page has a dark mode that follows the visitor's system setting.
+- Fonts (Newsreader and IBM Plex Sans) are served from `docs/fonts/`; the page makes no requests to outside servers.
