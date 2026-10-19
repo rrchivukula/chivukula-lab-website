@@ -1,0 +1,109 @@
+# News. Entries are sorted by date when the site is built, so add new ones
+# anywhere. The five most recent show by default; older ones sit
+# under an "Earlier" fold. Each entry: date (any short form, such as 2026,
+# June 2026, or 2026-06-15), text, and an optional link.
+#
+# One rule of this file format: if the text contains a colon, put the whole
+# thing in double quotes.
+
+- date: September 2026
+  text: Raghu is awarded the Howard M. Goodman Fellowship by Mass General Brigham.
+
+- date: August 2026
+  text: >
+    The lab receives a five-year R01 award from the National Institute of
+    Neurological Disorders and Stroke to study tRNA biogenesis defects in
+    neurodegeneration.
+
+- date: July 2026
+  text: Xincheng Wu joins the lab as a postdoctoral fellow.
+
+- date: June 2025
+  text: >
+    Raghu receives the Mark C. Fishman, M.D. Teaching Award from the MGH
+    Department of Medicine.
+
+- date: May 2026
+  text: Zhirou Lian and Navya Jain join the lab.
+
+- date: April 2026
+  text: >
+    Raghu and Dr. Alesi (Brigham and Women's Hospital) receive a BWH-MGB
+    Collaborative IGNITE Award for work on lysosomal exocytosis as a
+    therapeutic target in lymphangioleiomyomatosis.
+
+- date: April 2026
+  text: >
+    A U.S. patent is issued for the use of NEK10 in treating and diagnosing
+    bronchiectasis and other respiratory disorders.
+
+- date: March 2026
+  text: Raghu is named Associate Director of the Center for Genomic Medicine.
+
+- date: August 2025
+  text: >
+    Max Valenstein's structural work on amino acid sensing by mTORC1, with
+    the Sabatini and Rogala labs, is published in Nature.
+  link: https://pubmed.ncbi.nlm.nih.gov/40836086/
+
+- date: July 2025
+  text: >
+    Our paper showing that polyglycine aggregation of FAM98B disrupts tRNA
+    processing in GGC repeat disorders is published in Science.
+  link: https://pubmed.ncbi.nlm.nih.gov/40674500/
+
+- date: February 2025
+  text: >
+    David Ziehr is awarded a Parker B. Francis Fellowship for his work on
+    pulmonary fibrosis.
+
+- date: January 2025
+  text: >
+    Max Valenstein's paper showing that amino acids and KLHL22 do not activate
+    mTORC1 through DEPDC5 degradation, with the Sabatini lab, is published in
+    Nature.
+  link: https://pubmed.ncbi.nlm.nih.gov/39780017/
+
+- date: August 2024
+  text: >
+    Max Valenstein's paper on Rag-Ragulator as the organizer of the mTORC1
+    nutrient-sensing pathway, with the Sabatini lab, is published in PNAS.
+  link: https://pubmed.ncbi.nlm.nih.gov/39163330/
+
+- date: May 2024
+  text: >
+    Lab alumnus Jason Yang, now a genetics PhD student at Stanford, is named a
+    Hertz Fellow for his work on repeat expansion disorders.
+  link: https://www.hertzfoundation.org/people/jason-yang/
+
+- date: April 2024
+  text: >
+    Raghu is named a Department of Medicine Transformative Scholar, supported by
+    the Tianqiao and Chrissy Chen Institute.
+
+- date: March 2024
+  text: >
+    The lab receives the Smith Family Award for Excellence in Biomedical
+    Research for mechanistic studies of GGC repeat expansions.
+
+- date: November 2023
+  text: Raghu receives the Ellison Foundation Award.
+
+- date: September 2023
+  text: Raghu is named Co-Director of the MGH Adult Pulmonary Genetics Clinic.
+
+- date: August 2023
+  text: >
+    Our work with the Bartel lab showing that ZSWIM8 destabilizes many
+    microRNAs and is required for embryonic development is published in Genome
+    Research.
+  link: https://pubmed.ncbi.nlm.nih.gov/37532519/
+
+- date: March 2023
+  text: Raghu is named an Associate Member of the Broad Institute of MIT and Harvard.
+
+- date: February 2023
+  text: Raghu receives the ASCI Young Physician-Scientist Award.
+
+- date: January 2023
+  text: The lab opens in the Center for Genomic Medicine at MGH.

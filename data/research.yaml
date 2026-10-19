@@ -1,0 +1,69 @@
+# Research areas, in the order they appear. Each has a title, one image or a
+# list of images (shown side by side) in docs/images/research/, and one or
+# more paragraphs. [text](url) links work.
+
+- title: Familial bronchiectasis
+  image:
+    - images/research/bronchiectasis-1.jpg
+    - images/research/bronchiectasis-2.jpg
+    - images/research/bronchiectasis-3.jpg
+  alt:
+    - Scanning electron micrographs of airway cilia
+    - Sanger trace showing a NEK10 mutation
+    - Immunofluorescence of airway epithelium
+  text:
+    - >
+      Bronchiectasis describes a family of related pulmonary disorders caused by
+      failure of airway mucociliary clearance. In most cases the underlying cause
+      remains unknown and there are few effective therapies. We are leveraging
+      familial forms of the disease to identify genetic mechanisms that initiate
+      and exacerbate bronchiectasis. In
+      [earlier work](https://pubmed.ncbi.nlm.nih.gov/31959991/), we showed that
+      loss of a previously orphan protein kinase, NEK10, causes bronchiectasis
+      through defects in the growth and assembly of airway cilia, the specialized
+      organelles that drive mucociliary clearance. We continue to work on the
+      molecular basis of this and
+      [other forms](https://pubmed.ncbi.nlm.nih.gov/32367404/) of Mendelian
+      airway disease using molecular genetics and biochemistry in airway
+      culture systems.
+
+- title: Hereditary pulmonary fibrosis
+  image:
+    - images/research/fibrosis-1.jpg
+    - images/research/fibrosis-2.jpg
+    - images/research/fibrosis-3.jpg
+  alt:
+    - Lamp1 and HA immunofluorescence in mouse lung
+    - Immunoblots of lung lysosome immunoprecipitation
+    - Volcano plot of lung lysosome proteomics
+  text:
+    - >
+      Pulmonary fibrosis is an incurable disorder caused by a large,
+      heterogeneous, and poorly understood family of interstitial lung
+      diseases. Rare familial forms are caused by mutations in factors required
+      for the biogenesis and trafficking of specialized organelles unique to the
+      lung, and are accompanied by accumulation of aggregated proteins and
+      lipids within these compartments. We have developed new methods for
+      purifying and analyzing these organelles from genetically engineered mice
+      and are working to understand their biochemical roles in lung disease.
+
+- title: Mendelian neurodegeneration
+  image:
+    - images/research/ggc-repeat-1.jpg
+    - images/research/ggc-repeat-2.jpg
+    - images/research/ggc-repeat-3.jpg
+  alt:
+    - Electron micrograph of an intranuclear inclusion
+    - Gel of aggregate-associated proteins
+    - Northern blots of tRNA processing intermediates
+  text:
+    - >
+      Pathogenic expansions of GGC trinucleotide repeats cause a family of
+      related neurodegenerative disorders typified by intranuclear aggregates.
+      The composition and cellular consequences of these aggregates were
+      unclear, as was why GGC repeat diseases specifically affect the brain. We
+      developed methods to address these questions and
+      [found](https://pubmed.ncbi.nlm.nih.gov/40674500/) that polyglycine
+      aggregation sequesters FAM98B and disrupts tRNA processing. We are now
+      working out the molecular details of this process and, more broadly, the
+      role of tRNA dysregulation in human disease.

@@ -1,0 +1,215 @@
+# Publications, newest first. Each entry needs title, authors, journal, year,
+# and pmid. Optional: doi, pmc (PMC id like PMC1234567), pdf (a file path
+# under docs/files/ for a posted manuscript or preprint), and
+# selected: true to feature it at the top.
+#
+# This list was pulled from PubMed (author search "Chivukula RR") and should be
+# checked against the CV. Author lists are as PubMed shows them.
+#
+# One rule of this file format: if a title or journal contains a colon, put
+# the whole thing in double quotes, as in the second entry below.
+
+- title: Structural basis for the dynamic regulation of mTORC1 by amino acids
+  authors: Valenstein ML, Wranik M, Lalgudi PV, Linde-Garelli KY, Choi Y, Chivukula RR, Sabatini DM, Rogala KB
+  journal: Nature
+  year: 2025
+  pmid: 40836086
+  doi: 10.1038/s41586-025-09428-7
+
+- title: "From protein folding to precision therapy: surfactant protein A in the spotlight"
+  authors: Ziehr DR, Chivukula RR
+  journal: American Journal of Respiratory Cell and Molecular Biology
+  year: 2025
+  pmid: 40700718
+  doi: 10.1165/rcmb.2025-0366ED
+
+- title: Polyglycine-mediated aggregation of FAM98B disrupts tRNA processing in GGC repeat disorders
+  authors: Yang J, Xu Y, Ziehr DR, Taylor MS, Valenstein ML, Frenkel EM, Bush JR, Rutter K, Stevanovski I, Shi CY, Kesavan M, Pinto RM, Deveson I, Bartel DP, Sabatini DM, Chivukula RR
+  journal: Science
+  year: 2025
+  pmid: 40674500
+  doi: 10.1126/science.ado2403
+  selected: true
+
+- title: Amino acids and KLHL22 do not activate mTORC1 via DEPDC5 degradation
+  authors: Valenstein ML, Lalgudi PV, Kedir JF, Condon KJ, Platzek A, Freund DG, Taylor MS, Xu Y, Chivukula RR, Sabatini DM
+  journal: Nature
+  year: 2025
+  pmid: 39780017
+
+- title: Exercise intolerance and low cardiac filling pressures in a woman with a novel eNOS mutation
+  authors: McGarrity S, Ziehr DR, Austin-Tse CA, Wein MN, Chivukula RR, Oldham WM
+  journal: "Circulation: Genomic and Precision Medicine"
+  year: 2024
+  pmid: 39328057
+  doi: 10.1161/CIRCGEN.124.004741
+
+- title: Rag-Ragulator is the central organizer of the physical architecture of the mTORC1 nutrient-sensing pathway
+  authors: Valenstein ML, Lalgudi PV, Gu X, Kedir JF, Taylor MS, Chivukula RR, Sabatini DM
+  journal: Proceedings of the National Academy of Sciences
+  year: 2024
+  pmid: 39163330
+  doi: 10.1073/pnas.2322755121
+
+- title: ZSWIM8 destabilizes many murine microRNAs and is required for proper embryonic growth and development
+  authors: Shi CY, Elcavage LE, Chivukula RR, Stefano J, Kleaveland B, Bartel DP
+  journal: Genome Research
+  year: 2023
+  pmid: 37532519
+  doi: 10.1101/gr.278073.123
+
+- title: Massively parallel pooled screening reveals genomic determinants of nanoparticle delivery
+  authors: Boehnke N, Straehla JP, Safford HC, Kocak M, Rees MG, Ronan M, Rosenberg D, Adelmann CH, Chivukula RR, Nabar N, Berger AG, Lamson NG, Cheah JH, Li H, Roth JA, Koehler AN, Hammond PT
+  journal: Science
+  year: 2022
+  pmid: 35862544
+  doi: 10.1126/science.abm5551
+
+- title: Rethinking the physician-scientist pathway
+  authors: Eshel N, Chivukula RR
+  journal: Academic Medicine
+  year: 2022
+  pmid: 35731582
+  doi: 10.1097/ACM.0000000000004788
+
+- title: "Cystic fibrosis and the cells of the airway epithelium: what are ionocytes and what do they do?"
+  authors: Shah VS, Chivukula RR, Lin B, Waghray A, Rajagopal J
+  journal: Annual Review of Pathology
+  year: 2022
+  pmid: 34437820
+  doi: 10.1146/annurev-pathol-042420-094031
+
+- title: Evidence-based management of the critically ill adult with SARS-CoV-2 infection
+  authors: Chivukula RR, Maley JH, Dudzinski DM, Hibbert K, Hardin CC
+  journal: Journal of Intensive Care Medicine
+  year: 2021
+  pmid: 33111601
+
+- title: "Lung histopathology in coronavirus disease 2019 as compared with severe acute respiratory syndrome and H1N1 influenza: a systematic review"
+  authors: Hariri LP, North CM, Shih AR, Israel RA, Maley JH, Villalba JA, Vinarsky V, Rubin J, Okin DA, Sclafani A, Alladina JW, Griffith JW, Gillette MA, Raz Y, Richards CJ, Wong AK, Ly A, Hung YP, Chivukula RR, Petri CR, Calhoun TF, Brenner LN, Hibbert KA, Medoff BD, Hardin CC, Stone JR, Mino-Kenudson M
+  journal: Chest
+  year: 2021
+  pmid: 33038391
+
+- title: "The Fast Literature Assessment and Review (FLARE) initiative: a collaborative effort for timely literature appraisal during the coronavirus disease pandemic"
+  authors: Petri CR, Brenner LN, Calhoun TF, Chivukula RR, Maley JH, Vinarsky V, Dudzinski DM, Hardin CC
+  journal: ATS Scholar
+  year: 2020
+  pmid: 33870283
+  doi: 10.34197/ats-scholar.2020-0045IN
+
+- title: Anticoagulation, immortality, and observations of COVID-19
+  authors: Maley JH, Petri CR, Brenner LN, Chivukula RR, Calhoun TF, Vinarsky V, Hardin CC
+  journal: Research and Practice in Thrombosis and Haemostasis
+  year: 2020
+  pmid: 32685874
+
+- title: An exome-first approach to aid in the diagnosis of primary ciliary dyskinesia
+  authors: Shamseldin HE, Al Mogarri I, Alqwaiee MM, Alharbi AS, Baqais K, AlSaadi M, AlAnzi T, Alhashem A, Saghier A, Ameen W, Ibrahim N, Yang J, Abdulwahab F, Hashem M, Chivukula RR, Alkuraya FS
+  journal: Human Genetics
+  year: 2020
+  pmid: 32367404
+
+- title: A human ciliopathy reveals essential functions for NEK10 in airway mucociliary clearance
+  authors: Chivukula RR, Montoro DT, Leung HM, Yang J, Shamseldin HE, Taylor MS, Dougherty GW, Zariwala MA, Carson J, Daniels MLA, Sears PR, Black KE, Hariri LP, Almogarri I, Frenkel EM, Vinarsky V, Omran H, Knowles MR, Tearney GJ, Alkuraya FS, Sabatini DM
+  journal: Nature Medicine
+  year: 2020
+  pmid: 31959991
+  selected: true
+
+- title: A conserved distal lung regenerative pathway in acute lung injury
+  authors: Taylor MS, Chivukula RR, Myers LC, Jeck WR, Waghray A, Tata PR, Selig MK, O'Donnell WJ, Farver CF, Thompson BT, Rajagopal J, Kradin RL
+  journal: American Journal of Pathology
+  year: 2018
+  pmid: 29476724
+
+- title: "Delayed alveolar epithelialization: a distinct pathology in diffuse acute lung injury"
+  authors: Taylor MS, Chivukula RR, Myers LC, Jeck WR, Tata PR, O'Donnell WJ, Farver CF, Thompson BT, Rajagopal J, Kradin RL
+  journal: American Journal of Respiratory and Critical Care Medicine
+  year: 2018
+  pmid: 28696778
+
+- title: Systemic delivery of scAAV8-encoded miR-29a ameliorates hepatic fibrosis in carbon tetrachloride-treated mice
+  authors: Knabel MK, Ramachandran K, Karhadkar S, Hwang HW, Creamer TJ, Chivukula RR, Sheikh F, Clark KR, Torbenson M, Montgomery RA, Cameron AM, Mendell JT, Warren DS
+  journal: PLoS One
+  year: 2015
+  pmid: 25923107
+
+- title: Tumor suppression by miR-26 overrides potential oncogenic activity in intestinal tumorigenesis
+  authors: Zeitels LR, Acharya A, Shi G, Chivukula D, Chivukula RR, Anandam JL, Abdelnaby AA, Balch GC, Mansour JC, Yopp AC, Richardson JA, Mendell JT
+  journal: Genes and Development
+  year: 2014
+  pmid: 25395662
+
+- title: An essential mesenchymal function for miR-143/145 in intestinal epithelial regeneration
+  authors: Chivukula RR, Shi G, Acharya A, Mills EW, Zeitels LR, Anandam JL, Abdelnaby AA, Balch GC, Mansour JC, Yopp AC, Maitra A, Mendell JT
+  journal: Cell
+  year: 2014
+  pmid: 24855947
+  selected: true
+
+- title: Essential metabolic, anti-inflammatory, and anti-tumorigenic functions of miR-122 in liver
+  authors: Hsu SH, Wang B, Kota J, Yu J, Costinean S, Kutay H, Yu L, Bai S, La Perle K, Chivukula RR, Mao H, Wei M, Clark KR, Mendell JR, Caligiuri MA, Jacob ST, Mendell JT, Ghoshal K
+  journal: Journal of Clinical Investigation
+  year: 2012
+  pmid: 22820288
+
+- title: Repression of the miR-143/145 cluster by oncogenic Ras initiates a tumor-promoting feed-forward pathway
+  authors: Kent OA, Chivukula RR, Mullendore M, Wentzel EA, Feldmann G, Lee KH, Liu S, Leach SD, Maitra A, Mendell JT
+  journal: Genes and Development
+  year: 2010
+  pmid: 21159816
+
+- title: Quantification of global microRNA abundance by selective isotachophoresis
+  authors: Persat A, Chivukula RR, Mendell JT, Santiago JG
+  journal: Analytical Chemistry
+  year: 2010
+  pmid: 21062022
+
+- title: Therapeutic microRNA delivery suppresses tumorigenesis in a murine liver cancer model
+  authors: Kota J, Chivukula RR, O'Donnell KA, Wentzel EA, Montgomery CL, Hwang HW, Chang TC, Vivekanandan P, Torbenson M, Clark KR, Mendell JR, Mendell JT
+  journal: Cell
+  year: 2009
+  pmid: 19524505
+
+- title: "Abate and switch: miR-145 in stem cell differentiation"
+  authors: Chivukula RR, Mendell JT
+  journal: Cell
+  year: 2009
+  pmid: 19450510
+
+- title: Lin-28B transactivation is necessary for Myc-mediated let-7 repression and proliferation
+  authors: Chang TC, Zeitels LR, Hwang HW, Chivukula RR, Wentzel EA, Dews M, Jung J, Gao P, Dang CV, Beer MA, Thomas-Tikhonenko A, Mendell JT
+  journal: Proceedings of the National Academy of Sciences
+  year: 2009
+  pmid: 19211792
+
+- title: Prognostic value of left ventricular apical tissue removed for HeartMate II left ventricular assist device placement
+  authors: Soderlund KA, Chivukula RR, Russell SD, Conte JV, Mudd JO, Halushka MK
+  journal: Cardiovascular Pathology
+  year: 2009
+  pmid: 18706833
+
+- title: "Circular reasoning: microRNAs and cell-cycle control"
+  authors: Chivukula RR, Mendell JT
+  journal: Trends in Biochemical Sciences
+  year: 2008
+  pmid: 18774719
+
+- title: Restitution of tumor suppressor microRNAs using a systemic nanovector inhibits pancreatic cancer growth in mice
+  authors: Pramanik D, Campbell N, Karikari C, Chivukula R, Kent OA, Mendell JT, Maitra A
+  journal: Molecular Cancer Therapeutics
+  year: 2011
+  pmid: ""
+
+- title: Rapid accommodation of an A1 renal allograft after preconditioning for ABO-incompatible transplantation
+  authors: Allen G, Simpkins CE, Segev D, Warren D, King K, Taube J, Locke J, Baldwin W, Haas M, Chivukula R, Montgomery RA
+  journal: Contributions to Nephrology
+  year: 2009
+  pmid: ""
+
+- title: Visual illusion in virtual world alters women's target-directed walking
+  authors: Chaudhury S, Eisinger J, Hao L, Hicks J, Chivukula R, Turano K
+  journal: Experimental Brain Research
+  year: 2004
+  pmid: ""

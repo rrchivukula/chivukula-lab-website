@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{NAME}}</title>
+<meta name="description" content="{{NAME}}: {{TAGLINE}}. Center for Genomic Medicine, Massachusetts General Hospital and Harvard Medical School.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{NAME}}">
+<meta property="og:title" content="{{NAME}}">
+<meta property="og:description" content="{{TAGLINE}}. Center for Genomic Medicine, Massachusetts General Hospital and Harvard Medical School.">
+<meta property="og:url" content="{{SITE_URL}}/">
+<meta property="og:image" content="{{SITE_URL}}/images/social.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="{{SITE_URL}}/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#top">{{SHORT_NAME}}</a>
+    <nav aria-label="Sections">
+      <a href="#news">News</a>
+      <a href="#research">Research</a>
+      <a href="#team">Team</a>
+      <a href="#publications">Publications</a>
+      <a href="#join">Join</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <figure class="hero-figure">{{HERO}}</figure>
+    <div class="wrap hero-text">
+      <p class="eyebrow">{{INSTITUTION}}</p>
+      <h1>{{TAGLINE}}</h1>
+      <p class="lede">{{INTRO}}</p>
+    </div>
+  </section>
+
+  <section id="news" class="band">
+    <div class="wrap news-grid">
+      <h2>News</h2>
+      <div>
+        {{NEWS}}
+      </div>
+    </div>
+  </section>
+
+  <section id="research">
+    <div class="wrap">
+      <h2>Research</h2>
+      <div class="measure">{{RESEARCH_INTRO}}</div>
+      <div class="areas">
+        {{RESEARCH}}
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="band">
+    <div class="wrap">
+      <h2>Team</h2>
+      {{PI}}
+      <ul class="members">
+        {{MEMBERS}}
+      </ul>
+      {{ALUMNI}}
+    </div>
+  </section>
+
+  <section id="publications">
+    <div class="wrap">
+      <h2>Publications</h2>
+      {{PUBLICATIONS}}
+    </div>
+  </section>
+
+  <section id="join" class="band">
+    <div class="wrap two-col">
+      <div>
+        <h2>Join us</h2>
+        <p>{{JOIN}}</p>
+        <p class="action"><a href="mailto:{{EMAIL}}?subject=Chivukula%20Lab%20inquiry">Email Raghu</a></p>
+      </div>
+      <div>
+        <h2>Support the lab</h2>
+        <p>{{GIVING}}</p>
+        <p class="action"><a href="{{GIVING_URL}}">Give through Mass General</a></p>
+        <p class="funding">{{FUNDING}}</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap two-col">
+      <div>
+        <h2>Contact</h2>
+        <p><a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p>
+        <p>{{ADDRESS}}</p>
+        <ul class="linklist">
+          {{LINKS}}
+        </ul>
+      </div>
+      <div>
+        <h2>Affiliations</h2>
+        <div class="logos">
+          {{LOGOS}}
+        </div>
+        <ul class="linklist">
+          {{AFFILIATIONS}}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>&copy; {{YEARS}} {{NAME}}</p>
+  </div>
+</footer>
+
+</body>
+</html>

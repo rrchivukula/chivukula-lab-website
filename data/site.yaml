@@ -1,0 +1,89 @@
+# General site content. Edit freely; run `python3 build.py` afterward.
+
+name: Chivukula Lab
+short_name: Chivukula Lab
+# Public address of the site, with no trailing slash. Used for link previews.
+site_url: https://www.chivukula-lab.org
+tagline: Leveraging rare disease genetics to illuminate specialized cell biology
+institution_lines:
+  - Center for Genomic Medicine, Massachusetts General Hospital
+  - Harvard Medical School
+
+# Shown under the tagline on the opening screen.
+intro: >
+  We use molecular biology, biochemistry, and animal modeling to investigate
+  mechanisms underlying human genetic disorders. We are particularly interested
+  in rare Mendelian diseases that dysregulate the biogenesis and function of
+  specialized cells and subcellular compartments.
+
+hero_image: images/hero.jpg
+hero_alt: Scanning electron micrograph of airway cilia
+
+# Research section lead paragraphs. Markdown links like [text](url) work.
+research_intro:
+  - >
+    Our lab is grounded in the belief that rare human genetic disorders can
+    illuminate fundamental principles in cell biology and reveal new treatments
+    for common and uncommon disease alike. These ideas have already paid huge
+    dividends in heart disease and cancer and are growing in scope as medical
+    practice increasingly incorporates molecular genetics.
+  - >
+    We are currently most interested in monogenic disorders of proteostasis and
+    organelle quality control. Proteostasis and organellar defects, often
+    manifested by subcellular protein aggregation, are common during aging and
+    across diverse human disease states, yet their molecular basis is hard to
+    uncover because model systems are limited and the initiating events in
+    complex, often age-related disease are poorly understood. We take a
+    genetics-driven approach: we study human syndromes that phenocopy sporadic
+    proteostasis and organellar diseases but have a single defined cause that is
+    amenable to mechanistic work in the laboratory, using cultured immortalized
+    cells, primary human stem cell cultures, and mouse models together with
+    biochemistry, mass spectrometry, advanced microscopy, and functional genomics.
+
+# Author name forms to bold in publication author lists.
+highlight_authors:
+  - Chivukula RR
+
+funding: >
+  Our work is supported by the National Institute of Neurological Disorders and
+  Stroke, the Burroughs Wellcome Fund, the Smith Family Foundation, the Ellison
+  Foundation, the Tianqiao and Chrissy Chen Institute, the Francis Family
+  Foundation, and Massachusetts General Hospital.
+
+join: >
+  We are always looking for curious, talented, and motivated people to join the
+  group. If you are interested in Mendelian genetics, cell biology, and human
+  disease, we would love to connect. Prospective research technicians,
+  students, postdoctoral fellows, clinical fellows, and staff scientists should
+  email Raghu to discuss potential opportunities and projects.
+
+giving: >
+  We are deeply grateful for philanthropic support of our work, and no gift is
+  too small.
+giving_url: https://giving.massgeneral.org/donate?re_fund=218368&is_designation=1&designation=The%20Chivukula%20Laboratory
+
+email: rchivukula@mgh.harvard.edu
+address:
+  - Simches Research Building, CPZN 6.256
+  - 185 Cambridge Street
+  - Boston, MA 02114
+
+links:
+  - label: X (Twitter)
+    url: https://twitter.com/chivukula_raghu
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/rrchivukula
+
+affiliations:
+  - label: Center for Genomic Medicine
+    url: https://www.massgeneral.org/research/genomic-medicine
+    logo: images/logos/cgm.png
+  - label: Mass General Brigham
+    url: https://www.massgeneralbrigham.org/
+    logo: images/logos/mgb.png
+  - label: Harvard Medical School
+    url: https://hms.harvard.edu/
+    logo: images/logos/hms.png
+  - label: Broad Institute
+    url: https://www.broadinstitute.org/
+    logo: images/logos/broad.png

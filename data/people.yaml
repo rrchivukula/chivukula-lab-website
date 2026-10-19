@@ -1,0 +1,104 @@
+# Lab members. Photos live in docs/images/people/. Keep blurbs to two or
+# three sentences. Alumni are listed by name, role, and where they are now, and are sorted
+# alphabetically by last name when the site is built.
+
+pi:
+  name: Raghu Chivukula, MD, PhD
+  role: Principal Investigator
+  photo: images/people/raghu.jpg
+  blurb:
+    - >
+      Raghu is Assistant Professor of Medicine and Surgery at Harvard Medical
+      School, Associate Director of the Center for Genomic Medicine at
+      Massachusetts General Hospital, and Associate Member of the Broad
+      Institute of MIT and Harvard. He attends in the MGH intensive care unit
+      and co-directs the MGH Adult Pulmonary Genetics Clinic.
+    - >
+      He trained at Johns Hopkins (BA, MD, PhD), completed internal medicine
+      residency at MGH and pulmonary and critical care fellowship at Harvard,
+      and was a postdoctoral fellow at the Whitehead Institute. His work has
+      been recognized by the Burroughs Wellcome Career Award for Medical
+      Scientists, the Smith Family Award for Excellence in Biomedical Research,
+      and the ASCI Young Physician-Scientist Award. Outside the lab and hospital
+      he can be found trying to convince his kids to go climbing with him and
+      trying to get his 1975 Porsche 911 to start.
+  cv: files/chivukula-cv.pdf
+
+current:
+  - name: Coleen Cunningham
+    role: Senior Project Coordinator
+    photo: images/people/coleen-cunningham.jpg
+    blurb: >
+      Coleen manages the day-to-day operations of the lab and is the first
+      point of contact for administrative questions.
+
+  - name: David Ziehr, MD
+    role: Postdoctoral Fellow
+    photo: images/people/david-ziehr.jpg
+    blurb: >
+      After medical school at Harvard, David completed clinical training in
+      pulmonary and critical care medicine at MGH. He is interested in the
+      molecular pathophysiology of pulmonary fibrosis.
+
+  - name: Xincheng Wu, PhD
+    role: Postdoctoral Fellow
+    photo: images/people/xincheng-wu.jpg
+    blurb: >
+      Xincheng joined the lab in 2026 after completing his PhD at Cornell
+      University. His expertise is in ribosome profiling and translation
+      biology.
+
+  - name: Max Valenstein, MD, PhD
+    role: Pulmonary and Critical Care Fellow
+    photo: images/people/max-valenstein.jpg
+    blurb: >
+      After undergraduate training at Yale, Max completed the Harvard/MIT
+      MD-PhD program and internal medicine residency in the MGH Stanbury
+      physician-scientist program. He is now a clinical fellow in pulmonary and
+      critical care medicine.
+
+  - name: Zhirou Lian
+    role: Research Technician
+    photo: images/people/zhirou-lian.jpg
+    blurb: >
+      Zhirou studied neuroscience and computer science at Wellesley College and
+      worked in the Feng lab at MIT's McGovern Institute on viral tools for
+      targeting specific neuronal cell types. In the lab she studies mechanisms
+      underlying dysregulated translation in genetic disease states, and she
+      plans to pursue a PhD.
+
+  - name: Jack Bush
+    role: Research Technician
+    photo: images/people/jack-bush.jpg
+    blurb: >
+      Jack has a background in marine biology and built the lab's mouse genetic
+      models of lung disease. He completed his nursing degree at the MGH
+      Institute of Health Professions and is now an ICU nurse at MGH, and he
+      still helps manage the lab's mouse colony.
+
+  - name: Navya Jain
+    role: Master's Student, Northeastern
+    photo: images/people/navya-jain.jpg
+    blurb: >
+      Navya is a master's student in biotechnology at Northeastern University and
+      joined the lab through its co-op program. She studied biotechnology at Shiv
+      Nadar University in India, where her thesis work examined fibroblast
+      activation in systemic sclerosis. In the lab she studies patient mutations
+      and their effects on airway physiology.
+
+alumni:
+  - name: Ben Hirschberg
+    role: Summer student
+    now: Undergraduate, University of Massachusetts
+  - name: Lillie Chudacoff
+    role: Summer student
+    now: PhD candidate in Chemistry, University of Iowa
+  - name: Kate Rutter
+    role: Summer student
+    now: Undergraduate, Brigham Young University
+  - name: Yunhan (Forrest) Xu
+    role: Research Technician
+    now: Medical student, University of Melbourne
+  - name: Jason Yang
+    role: Research Technician
+    now: PhD student in Genetics, Stanford; Hertz Fellow
