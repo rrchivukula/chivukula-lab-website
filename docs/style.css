@@ -278,7 +278,7 @@ main > section.hero { padding-top: 0; }
 .member p { font-size: 0.9375rem; }
 
 .alumni { margin-top: 1rem; max-width: var(--measure); }
-#team h3 { margin-top: 3.5rem; }
+#team .wrap > h3 { margin-top: 3.5rem; }   /* the "Alumni" heading only */
 .alumni li {
   padding: 0.6rem 0;
   border-top: 1px solid var(--rule);
